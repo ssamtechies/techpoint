@@ -1,0 +1,19 @@
+Controllers - setup scope, and handle user interaction, generating views
+Directives - DOM Manipulation
+
+ng-annotate is used to safely minify the code
+
+Services - Handle non-view logic, communicate with server, hold data and state
+
+5 ways to create a service
+
+1) Using value function
+app.value('employee',{name:'Samuel'});
+
+2) constant - works similar to value
+3) factory - we need to return the object, It does not instantiate on its own
+4) service - just set the methods and functions
+5) provider - not working for me
+
+6) Filter - creates a service and appends filter on the end 
+
